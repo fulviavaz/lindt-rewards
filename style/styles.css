@@ -287,3 +287,86 @@ footer .container-footer img {
 .line-footer {
     margin-top:30px;
 }
+
+@media (max-width: 390px) {
+    main {
+        background-image: url(../assets/hero-mobile.jpg) ; 
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;  
+    height: 380px;
+    }
+
+    .wrapp {
+    width: 65%;
+    
+}
+
+h2 {
+        color: #000;
+font-family: "Optima LT Pro";
+font-size: 13.752px;
+font-style: normal;
+font-weight: 500;
+line-height: 95%; /* 13.065px */
+}
+
+h1 {
+    color: #000;
+font-family: "Optima LT Pro";
+font-size: 19.712px;
+font-style: normal;
+font-weight: 700;
+line-height: 95%;
+letter-spacing: 0.197px;
+}
+
+.main-text {
+    color: #000;
+font-family: "Optima LT Pro";
+font-size: 9px;
+font-style: normal;
+font-weight: 500;
+line-height: 111%; /* 9.99px */
+}
+
+button {
+    width: 134.313px;
+height: 28.319px;
+flex-shrink: 0;
+    background: #917236;
+    color: #FFF;
+text-align: center;
+font-family: "Optima LT Pro";
+font-size: 15.373px;
+font-style: normal;
+font-weight: 700;
+line-height: 124%; /* 19.063px */
+    border: none;
+    cursor: pointer;
+}
+
+.wrapp-link {
+    display: flex;
+width: 100px;
+height: 100px;
+transform: rotate(-21.244deg);
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+}
+
+.link-main {
+    color: #000;
+text-align: center;
+font-family: "Optima LT Pro";
+font-size: 10.02px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; /* 11.022px */
+    text-decoration: none;/* 28.6px */
+    margin-right:20px;
+    margin-top:20px;
+}
+}
